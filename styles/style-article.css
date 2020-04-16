@@ -1,11 +1,11 @@
 body{
     background: #F9F09F;
     font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .content-holder{
-    width: 80%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     background-color: white;
@@ -47,7 +47,7 @@ hr{
 p{
     line-height: 2rem;
     margin: 2rem;
-    word-spacing: 0.05rem;
+    word-spacing: 0.03rem;
     text-indent: 0.7rem;
 
 }
@@ -65,6 +65,38 @@ span{
     padding-left: 1em;
     font-style: italic;
 }
+
+/* JAPNA LANGUAGE */
+.slovicka{
+    margin-left: 4rem;
+    border-left: solid #EC7980 0.4em;
+
+}
+
+.slovicka ul{
+    list-style: none;
+}
+
+.emo-icon{
+    font-size: 2em;
+    position: relative;
+    top: 0.5rem;
+    cursor: default;
+}
+
+ul li span:nth-child(3){
+    cursor: pointer;
+}
+
+.jap-word{
+    font-size: 1.2em;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    text-transform: uppercase;
+    color: black;
+    cursor: default;
+}
+/* --------------------------------------------------------------------------------------------- */
 
 .video{
     margin: 0;
@@ -84,10 +116,6 @@ iframe{
     border-top: solid #EC7980 0.4em;
 }
 
-
-.area-extender{
-    background-color: yellow;
-}
 
 .pop{
     display: none;
@@ -134,7 +162,7 @@ iframe{
 #arrow-back{
     position: absolute;
     top: 80px; 
-    left: 30px;
+    left: 20px;
     transform: rotate(-90deg);
     cursor: pointer;
 }
@@ -147,7 +175,7 @@ iframe{
     cursor: pointer;
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    right: -10px;
 
     transition: 1s;
     

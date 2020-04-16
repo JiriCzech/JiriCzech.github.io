@@ -8,9 +8,7 @@ const arrowToTop = document.querySelector("#arrow-to-top");
 const arrowBack = document.querySelector("#arrow-back");
 
 const hr = document.querySelector("hr:first-of-type");
-
 //----------------------------------------------------------------------
-
 
 
 // SETUP
