@@ -15,6 +15,13 @@ h1{
     -webkit-text-stroke-color: #A16F38;
 }
 
+#ref-fotoalbum{
+    font-size: 3em;
+    position: absolute;
+    left: 5%;
+    top: 65px;
+}
+
 .trio-holder {
     
     margin-left: 4rem;
