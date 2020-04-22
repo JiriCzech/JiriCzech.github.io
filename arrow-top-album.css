@@ -1,0 +1,17 @@
+#arrow-to-top{
+    visibility: visible;
+    opacity: 1;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: -10px;
+
+    transition: 1s;
+    
+}
+
+#arrow-to-top.hidden{
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s;
+}

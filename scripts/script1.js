@@ -11,6 +11,7 @@ const hr = document.querySelector("hr:first-of-type");
 //----------------------------------------------------------------------
 
 
+
 // SETUP
 
 // addInfoWindowToElement(infoGate,spanGate);
@@ -18,7 +19,7 @@ const hr = document.querySelector("hr:first-of-type");
 showOrHideArrow();
 
 arrowToTop.addEventListener("click", ()=>{
-    smoothScrollToTop(event);
+    smoothScrollToPosition(event, 0);
 } )
 
 window.addEventListener("scroll", ()=>{

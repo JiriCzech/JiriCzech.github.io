@@ -60,10 +60,10 @@ function addInfoWindowToElement(window, element){
 
 // SMOOTH SCROLL TO TOP
 
-function smoothScrollToTop(event){
+function smoothScrollToPosition(event, position){
     event.preventDefault();
 
-    const targetPosition = 0;
+    const targetPosition = position;
     const startPosition = window.pageYOffset;
     const distance = targetPosition - startPosition;
     let durotation = 800;
