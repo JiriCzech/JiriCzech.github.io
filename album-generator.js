@@ -76,7 +76,7 @@ const mainContainer = document.querySelector("#main-container");
 
 
   // container
-  let photoContainer = document.createElement("div");7960
+  let photoContainer = document.createElement("div");
   
   photoContainer.classList.add("photo-container");
   // img
@@ -101,6 +101,7 @@ allInMainContainer = document.querySelectorAll("#main-container > *");
 const photoView = document.createElement("div");
 const closeButton = document.createElement("button");
 let photoBig = document.createElement("img");
+photoBig.classList.add("photo-big");
 const nextButton = document.createElement("button");
 const previousButton = document.createElement("button");
 
