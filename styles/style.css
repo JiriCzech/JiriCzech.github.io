@@ -15,11 +15,98 @@ h1{
     -webkit-text-stroke-color: #A16F38;
 }
 
+    .fotoalbum{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        z-index: -1;
+       background-color: white;
+       
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-right: 100px;
+        padding-bottom: 90px;
+        transition: all .5s ease;
+       
+    
+    }
+
+    .fotoalbum-changed{
+        padding-right: 155px;
+        padding-bottom: 150px;
+
+    }
+
+
+
+    .curl {
+        cursor: pointer;
+        width:220px;
+        height:220px;
+        position: absolute;
+        top:0;
+        left:0;
+        background : 
+            linear-gradient(
+                135deg, 
+                rgba(255,255,255,0), 
+                rgba(243,243,243,0) 45%, 
+                #ddd 50%, 
+                #aaa 50%, 
+                #bbb 56%, 
+                #ccc 62%, 
+                #f3f3f3 80%,
+                #fff 100%
+            );
+        box-shadow : 0 0 10px rgba(0, 0, 0, .5);
+        transition: all .5s ease;
+    }
+    .curl:before,
+    .curl:after {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        left: 12.5%;
+        bottom: 5.8%;
+        width: 70%;
+        max-width: 300px;
+        max-height: 100px;
+        height: 55%;
+        box-shadow: 0 12px 15px rgba(0, 0, 0, .3);
+        transform: skew(-10deg) rotate(-6deg);
+        
+    }
+    .curl:after {
+        left: auto;
+        right: 5.8%;
+        bottom: auto;
+        top: 14.16%;
+        transform: skew(-15deg) rotate(-84deg);
+    }
+    
+    .curl:hover {
+        width: 280px;
+        height: 280px;
+    }
+    .curl:hover:before,
+    .curl:hover:after {
+        box-shadow: 0 24px 30px rgba(0, 0, 0, .3);
+    }
+
+.fotoalbum img{
+ height: auto;
+ width: 80px;
+}
+
 #ref-fotoalbum{
-    font-size: 3em;
-    position: absolute;
+    font-size: 2em;
+    color: #EC7980;
+    /* position: absolute;
     left: 5%;
-    top: 65px;
+    top: 65px; */
 }
 
 .trio-holder {
@@ -63,16 +150,21 @@ h1{
     align-items: center;
 
     height: 60vh;
+
+
+   
+    border-radius: 20px;
+   /* z-index is the key */
+ 
     
     overflow: hidden;
+   
 
 }
 
 .article-container div img{
 
-    
 
-    
     border-radius: 20px;
       
 }
