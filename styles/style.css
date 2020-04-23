@@ -56,17 +56,23 @@ h1{
 
     display: flex;
     flex-direction: column;
-    margin: 2rem;
-    /* width: 35vw;
-    height: auto; */
+    margin: 1rem;
+    width: 20vw;
+    height: auto;
     text-align: center;
     align-items: center;
+
+    height: 60vh;
+    
+    overflow: hidden;
 
 }
 
 .article-container div img{
-    /* width:100%;
-    height: auto; */
+
+    
+
+    
     border-radius: 20px;
       
 }
@@ -74,7 +80,7 @@ h1{
 .article-name{
     background: #EC7980;
     border-radius: 20px;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #FFF691;
     width: 80%;
     z-index: 1;
