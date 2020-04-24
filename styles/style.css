@@ -24,6 +24,7 @@ h1{
         flex-direction: column;
         z-index: -1;
        background-color: white;
+
        
         padding-left: 10px;
         padding-top: 10px;
@@ -144,20 +145,20 @@ h1{
     display: flex;
     flex-direction: column;
     margin: 1rem;
-    width: 20vw;
-    height: auto;
+    /* width: 20vw; */
+    /* height: auto; */
     text-align: center;
     align-items: center;
 
-    height: 60vh;
+    /* height: 60vh; */
 
 
    
-    border-radius: 20px;
+    /* border-radius: 20px; */
    /* z-index is the key */
  
     
-    overflow: hidden;
+    /* overflow: hidden; */
    
 
 }
