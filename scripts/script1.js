@@ -1,8 +1,8 @@
 
 // VARIABLES
 
-const infoGate = document.querySelector("#info-gate");
-const spanGate = document.querySelector("#gate");
+// const infoGate = document.querySelector("#info-gate");
+// const spanGate = document.querySelector("#gate");
 
 const arrowToTop = document.querySelector("#arrow-to-top");
 const arrowBack = document.querySelector("#arrow-back");
