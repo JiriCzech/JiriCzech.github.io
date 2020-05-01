@@ -1,4 +1,7 @@
-const infoGate = document.querySelector("#regiojet");
-const spanGate = document.querySelector("#span-regiojet");
+const popGate = document.querySelector("#pop-gate");
+const spanGate = document.querySelector("#gate");
+addInfoWindowToElement(popGate,spanGate);
 
-addInfoWindowToElement(infoGate,spanGate);
+const popCheckin = document.querySelector("#pop-checkin");
+const spanCheckin = document.querySelector("#checkin");
+addInfoWindowToElement(popCheckin,spanCheckin);

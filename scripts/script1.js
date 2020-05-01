@@ -8,11 +8,20 @@ const arrowToTop = document.querySelector("#arrow-to-top");
 const arrowBack = document.querySelector("#arrow-back");
 
 const hr = document.querySelector("hr:first-of-type");
+
+const aHrefs = document.querySelectorAll("a");
 //----------------------------------------------------------------------
 
 
 
 // SETUP
+
+if(aHrefs !== null){
+    aHrefs.forEach(a =>{
+        a.setAttribute("target", "_blank");
+    })
+}
+
 
 // addInfoWindowToElement(infoGate,spanGate);
 
@@ -56,8 +65,7 @@ jenyElements.forEach(jenyElement =>{
 
     //Create and style pop window
     let czkWindow = document.createElement("div");
-    czkWindow.style.width = getElementPosition(jenyElement).width *1.2;
-    czkWindow.style.textAlign = "center";
+    czkWindow.style.width = getElementPosition(jenyElement).width *2;
     czkWindow.style.position = "absolute";
     czkWindow.style.display = "none";
     czkWindow.classList.add("czk-pop");
