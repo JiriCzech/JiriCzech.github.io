@@ -16,12 +16,6 @@ curl.addEventListener('mouseleave',()=>{
     cameraIcon.src ="./imgs/fotak.png";
 })
 
-curl.addEventListener('click',()=>{
-    window.location.href = "album.html";
-})
-
-
-
 
 articleDivs.forEach(div =>{
 

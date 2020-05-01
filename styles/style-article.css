@@ -16,6 +16,24 @@ body{
 }
 
 
+.fotka{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: right;
+}
+
+.up{
+ height: 600px;
+ width: auto;
+}
+
+.land{
+
+   width: 600px;
+   height: auto;
+}
+
 
 h1{
     font-family: 'Oregano', cursive;
@@ -29,6 +47,7 @@ h1{
 }
 
 .date{
+    cursor: default;
     font-family: 'Oregano', cursive;
     margin-top: -2rem;
     font-size: 2.5rem;
@@ -44,6 +63,10 @@ hr{
     border: 3px solid #EC7980;
 }
 
+a{
+    color: black;
+}
+
 p{
     line-height: 2rem;
     margin: 2rem;
@@ -53,17 +76,37 @@ p{
 }
 
 span{
-    color: blue;
-    cursor: help;
+    font-weight: bold;
     z-index: 2;
 }
 
+.info{
+    cursor: help;
+}
+
 .pepa {
+    /* text-indent: -55px; */
     font-size: 1.1em;
     margin-left: 4rem;
-    border-left: solid #EC7980 0.4em;
-    padding-left: 1em;
+    border-left: solid #EC7980 1em;
+    padding-left: 3em;
     font-style: italic;
+    
+}
+
+
+.word-tip{
+    line-height: normal;
+    cursor: default;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    left: 167px;
+    /* top: 20px; */
+    background-color: #EC7980;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 /* JAPNA LANGUAGE */
@@ -118,6 +161,10 @@ iframe{
 
 
 .pop{
+
+   
+    /* font-weight: bold; */
+    color: black;
     display: none;
     /* display: flex; */
     flex-direction: column;
@@ -125,7 +172,7 @@ iframe{
     width: 300px;
     height: auto;
     position: absolute;
-    background-color: teal;
+    background-color: #EC7980;
     /* left: -150px; */
     border-radius: 20%;
     /* opacity: 0.9; */
@@ -151,18 +198,17 @@ iframe{
 	width: 0;
 	position: absolute;
     pointer-events: none;
-    border-bottom-color: teal;
+    border-bottom-color: #EC7980;
 }
 
 .pop:after {
-	/* border-color: rgba(136, 183, 213, 0);
-	border-bottom-color: teal; */
-	border-width: 10px;
-	margin-left: -10px;
+    
+	border-width: 18px;
+	margin-left: -18px;
 }
 .pop:before {
-	/* border-color: rgba(194, 225, 245, 0);
-	border-bottom-color: teal; */
+
+	border-bottom: none;
 	border-width: 16px;
 	margin-left: -16px;
 }
@@ -182,8 +228,8 @@ iframe{
     opacity: 1;
     cursor: pointer;
     position: fixed;
-    bottom: 20px;
-    right: -10px;
+    bottom: 24px;
+    right: -24px;
 
     transition: 1s;
     

@@ -10,9 +10,27 @@ const arrowBack = document.querySelector("#arrow-back");
 const hr = document.querySelector("hr:first-of-type");
 
 const aHrefs = document.querySelectorAll("a");
+
+const tips = document.querySelectorAll(".tip");
 //----------------------------------------------------------------------
 
+// Word tip 
+if (tips != null){
+    tips.forEach(tip =>{
+      let wordTip = document.createElement("span");
+      wordTip.textContent = "tip";
+      let br = document.createElement("br");
+      tip.appendChild(br);
+      tip.append(wordTip);
+      wordTip.classList.add("word-tip");
+    //   let top = tip.offsetHeight *3;
+    //   wordTip.style.top = top+"px";
 
+    //   console.log(top);
+
+
+    })
+}
 
 // SETUP
 
