@@ -115,7 +115,7 @@ let actualPhoto;
 
 //setup
 closeButton.textContent = "zavřít";
-nextButton.textContent = "Daší";
+nextButton.textContent = "Další";
 previousButton.textContent = "Předchozí";
 
 photoView.style.display = "none";
