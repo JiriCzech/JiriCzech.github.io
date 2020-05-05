@@ -117,8 +117,9 @@ span{
     /* top: 20px; */
     background-color: #EC7980;
     margin-left: -75px;
-    padding-left: 40px;
+    padding-left: 42px;
     padding-right: 40px;
+    padding-bottom: 1px;
 
 }
 
@@ -197,6 +198,8 @@ iframe{
     padding: 1em;
     padding-left: 1.5em;
     padding-right: 1.5em;
+
+    z-index: 5;
 
     
 }
