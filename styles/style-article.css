@@ -108,7 +108,7 @@ span{
 .word-tip{
     font-size: 0.9em;
     position: relative;
-    top: 4px;
+    top: 0px;
     line-height: normal;
     cursor: default;
     text-transform: uppercase;
@@ -119,7 +119,7 @@ span{
     margin-left: -75px;
     padding-left: 42px;
     padding-right: 40px;
-    padding-bottom: 1px;
+    
 
 }
 
@@ -266,7 +266,7 @@ iframe{
 .czk-pop{
     justify-content: center;
     font-size: 1.4em;
-    background-color: #4C7ABB;
+    background-color:#EC7980;
     padding-left: 0.4em;
     padding-right: 0.4em;
     padding-bottom: 0.2em;
@@ -282,7 +282,7 @@ iframe{
 	width: 0;
 	position: absolute;
     pointer-events: none;
-    border-bottom-color: #4C7ABB;
+    border-bottom-color: #EC7980;
     z-index: 1;
     
 }

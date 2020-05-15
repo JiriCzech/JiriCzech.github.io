@@ -34,12 +34,17 @@ if (tips != null){
 
 // SETUP
 
+//add popWindows
+addAllPopWindowsToInfoElements();
+
+// links open in new tab
 if(aHrefs !== null){
     aHrefs.forEach(a =>{
         a.setAttribute("target", "_blank");
     })
 }
 
+//---------------------------------------------------------------------------------------------------
 
 // addInfoWindowToElement(infoGate,spanGate);
 
@@ -79,6 +84,8 @@ function showOrHideArrow(){
 
 let jenyElements = document.querySelectorAll("span.jeny");
 
+
+
 jenyElements.forEach(jenyElement =>{
 
     //Create and style pop window
@@ -102,7 +109,7 @@ jenyElements.forEach(jenyElement =>{
     document.body.appendChild(czkWindow);
 
     // my function 
-    addInfoWindowToElement(czkWindow,jenyElement);
+    addPopWindowToInfoElement(czkWindow,jenyElement);
 
 });
 //----------------------------------------------------------------------

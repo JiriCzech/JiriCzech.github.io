@@ -15,7 +15,7 @@ function getElementPosition(element){
 
 // ADD INFOWINDOW TO ELEMENT 
 
-function addInfoWindowToElement(window, element){
+function addPopWindowToInfoElement(window, element){
 
     let myTimeOut;
     let timeToHide = 250;
@@ -104,5 +104,43 @@ Math.easeInOutQuad = function (t, b, c, d) {
 };
 
 // source: http://gizma.com/easing/#l
+
+//-----------------------------------------------------------------------------------------------------------
+
+// ADD ALL POP WINDOW TO  INFO ELEMENTS
+
+function addAllPopWindowsToInfoElements(){
+    let allPops = document.querySelectorAll(".pop");
+    let allInfoElements = document.querySelectorAll(".info");
+
+    if (allPops != null){
+
+    for(i=0; i<allPops.length;i++){
+         addPopWindowToInfoElement(allPops[i], allInfoElements[i]);
+     }
+}
+}
+
+
+
+
+//-----------------------------------------------------------------------------------------------------------
+
+// NAME
+
+
+
+
+
+
+//-----------------------------------------------------------------------------------------------------------
+
+
+// NAME
+
+
+
+
+
 
 //-----------------------------------------------------------------------------------------------------------
