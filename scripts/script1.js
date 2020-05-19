@@ -91,6 +91,9 @@ jenyElements.forEach(jenyElement =>{
     //Create and style pop window
     let czkWindow = document.createElement("div");
     czkWindow.style.width = getElementPosition(jenyElement).width *2;
+    console.log('sirka',getElementPosition(jenyElement).width *2);
+    console.log('sirka skutecna',czkWindow.style.width);
+
     czkWindow.style.position = "absolute";
     czkWindow.style.display = "none";
     czkWindow.classList.add("czk-pop");

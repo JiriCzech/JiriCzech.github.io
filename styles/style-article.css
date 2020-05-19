@@ -22,15 +22,6 @@ body{
     margin-right: 20px;
     
 }
-
-.right{
-float: right;
-}
-
-.left{
-float: left;
-}
-
 .up{
  height: 400px;
  width: auto;
@@ -41,6 +32,22 @@ float: left;
    width: 400px;
    height: auto;
 }
+.right{
+float: right;
+}
+
+.left{
+float: left;
+}
+
+.center{
+    display: block;
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
 
 
 h1{

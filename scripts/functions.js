@@ -113,7 +113,9 @@ function addAllPopWindowsToInfoElements(){
     let allPops = document.querySelectorAll(".pop");
     let allInfoElements = document.querySelectorAll(".info");
 
-    if (allPops != null){
+    console.log(allInfoElements);
+
+    if (allInfoElements.length > 0){
 
     for(i=0; i<allPops.length;i++){
          addPopWindowToInfoElement(allPops[i], allInfoElements[i]);
